@@ -1,35 +1,102 @@
 .speech {
     font-size: x-small;
-    color:#000000;
-    background-color: #1c87c9;
+    color:#216326;
+    font-family: "Times New Roman";
 }
 .stage-direction{
 
     font-size: x-small;
     color:#000000;
-    background-color: #8fafc4;
+    background-color: #03304e;
+    font-family: "Helvetica";
 }
 .stage-direction:hover{
-
     font-size: x-small;
     color:#000000;
     background-color: #8fafc4;
+    font-family: "Times";
 }
-  .name{
+.name{
         font-size: x-small;
         color:#000000;
         background-color: #1c87c9;
-
+        font-family: "sans-serif";
   }
-  .PARKER{
-
+.PARKER{
                     color:#370981;
+                    font-size: x-small;
+                    font-family: "Helvetica";
+  }
+  .PARKER.hover{
+                    text-shadow: 2px 2px 5px rgb(105, 78, 141);
+                    border-style: solid;
   }
   .lADYWINDERMERE{
                     color:#a11212;
-
+                    font-size: x-small;
+                    font-family: "Helvetica";
   }
+  .lADYWINDERMERE:hover{
+                    text-shadow: 2px 2px 5px rgb(116, 134, 65);
+                    border-style: solid;
+  }
+
   .lORDDARLINGTON{
                       color:#ad1881;
+                      font-size: x-small;
+                      font-family: "Helvetica";
+  }
+  .lORDDARLINGTON:hover{
+                        text-shadow: 2px 2px 5px rgb(128, 35, 112);
+                        border-style: solid;
+  }
+  table{
+      margin: 50px;
+  }
+  th{
+                        color:#a11212;
+                        border:1px solid cornflowerblue;
+                        background-color:rgb(116, 134, 65);
+                        padding: 20px;
+                        text-align: center;
+  }
+  td{
+                        color:#a11212;
+                        border:1px solid;
+                        
+                        padding: 20px;
+                        text-align: center;
+  }
+  tr:nth-child(even){
+
+                        background-color: darkkhaki;
 
   }
+  .navigation{
+      width: 90px;
+      background-color: chocolate;
+      overflow: auto;
+  }
+
+  .navigation a{
+      float: left ;
+      padding: 12px;
+      color: whitesmoke;
+      text-decoration: none ;
+      font-size: 18px;
+  }
+  .navigation align:hover{
+      background-color: thistle;
+  }
+  .book{
+      background-color: wheat;
+  }
+
+  @media screen and  (max-width: 500px){
+        .navbar a{
+            float:none;
+            display: block;
+        }
+  }
+      
+  
