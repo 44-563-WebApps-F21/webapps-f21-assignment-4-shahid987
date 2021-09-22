@@ -12,7 +12,7 @@
 }
 .stage-direction:hover{
     font-size: x-small;
-    color:#000000;
+    color:#a36e6e;
     background-color: #8fafc4;
     font-family: "Times";
 }
@@ -30,22 +30,22 @@
                     text-shadow: 2px 2px 5px rgb(105, 78, 141);
                     border-style: solid;
   }
-  .lADYWINDERMERE{
+  .LADYWINDERMERE{
                     color:#a11212;
                     font-size: x-small;
                     font-family: "Helvetica";
   }
-  .lADYWINDERMERE:hover{
+  .LADYWINDERMERE:hover{
                     text-shadow: 2px 2px 5px rgb(116, 134, 65);
                     border-style: solid;
   }
 
-  .lORDDARLINGTON{
+  .LORDDARLINGTON{
                       color:#ad1881;
                       font-size: x-small;
                       font-family: "Helvetica";
   }
-  .lORDDARLINGTON:hover{
+  .LORDDARLINGTON:hover{
                         text-shadow: 2px 2px 5px rgb(128, 35, 112);
                         border-style: solid;
   }
